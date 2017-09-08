@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Fri May 19 17:11:27 2017
 
-@author: Administrator
-"""
 # 2.3手写识别系统
 from numpy import *
 import operator
@@ -11,9 +7,6 @@ import os
 from imp import reload 
 
 # 防止超出编码范围
-
-
-
 import sys
 default_encoding = 'utf-8'
 if sys.getdefaultencoding() != default_encoding:
@@ -86,6 +79,7 @@ def handwritingClassTest():
     print "\n the total number of error is: %d" % errorCount
     print "\n the total error rate is: %f" % (errorCount/float(mTest))
 
+# 测试
 handwritingClassTest()
 
 
