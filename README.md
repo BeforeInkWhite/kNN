@@ -1,9 +1,9 @@
 #机器学习实战——K-近邻算法<br>
-##1、kNN_1.py
+##kNN_1.py
 kNN_1.py是使用k-近邻算法改进约会网站的配对效果<br>
 datingTestSet2.txt是测试数据<br>
 
-##2、kNN_2.py
+##kNN_2.py
 kNN_2.py是手写识别系统<br>
 trainingDigits文件夹是训练数据集<br>
 testDigits是测试数据集<br>
